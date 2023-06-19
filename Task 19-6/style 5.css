@@ -1,0 +1,11 @@
+div{
+    border-style: dashed;
+    border-color: red;
+}
+
+.plus{
+    color: blueviolet;
+}
+body{
+    background-color: rgb(242, 223, 198);
+}

@@ -1,0 +1,8 @@
+table td{
+    border: white 2px solid;
+}
+span{
+    border-radius: 5px;
+border:solid 1px black;
+box-shadow:2px 2px 2px ;
+}
