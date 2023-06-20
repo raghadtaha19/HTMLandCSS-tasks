@@ -1,0 +1,42 @@
+.paragra{
+    background-color:rgb(255, 0, 0) ;
+}
+/*rgb*/
+
+.paragraph{
+    background-color: rgba(255, 0, 0, 0.7);                        
+    /* red transparency */
+}
+#para{
+    background-color: #0000ff;
+
+}
+
+#par{
+    background-color: #0000ff80;
+}
+
+h1{
+    border-style:dashed dotted ;
+    border-radius:9px ;
+    border-color: red gray blueviolet yellowgreen;
+    background-image:url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg) ;
+    box-shadow: 2px 2px 2px 2px;
+    background-size: cover;
+    text-decoration-line: line-through;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+div p{
+    color: chocolate;
+}
+
+p.intro {
+    background-color: yellow;
+  }
+
+
+  h2,p{
+    background-color:purple;
+  }
