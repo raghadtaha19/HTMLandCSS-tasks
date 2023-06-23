@@ -1,0 +1,67 @@
+div{
+    font-weight: bold;
+    
+    }
+.bigbox{
+    border:1px dashed black;
+    border-width: 5px;
+    width: 800px;
+    height: 150px;
+}
+
+.smallboxred{
+    border:1px solid red;
+    width: 195px;
+    height: 150px;
+    background-color: red;
+    display: inline-block;
+}
+
+.smallboxgreen{
+    border:1px solid green;
+    width: 195px;
+    height: 150px;
+    background-color: green;
+    display: inline-block;
+}
+
+.relative{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+ .absolute{
+    position:absolute;
+    top: 513px ;
+    left:20px ;
+  
+
+}
+
+
+.modifiedbox{
+    border-width: 5px;
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

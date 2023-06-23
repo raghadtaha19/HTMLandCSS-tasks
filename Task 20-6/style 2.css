@@ -1,0 +1,39 @@
+.container{
+    width: 90%;
+    border: 0.0625rem solid darkgrey;
+    text-align: center;
+    margin: auto;
+
+}
+
+.card{
+       width:25%;
+       text-align: center;
+       border: 0.0625rem solid black;
+       display: inline-block;
+       min-height: 43.75rem;
+       overflow: hidden;
+       
+      
+     
+
+}
+
+h1{
+
+    padding-top: 0.3125rem;
+
+}
+
+img{
+    width: 100%;
+
+}
+.cs{
+    margin: 0 0.625rem;
+}
+
+
+
+
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            
+    
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 39vh 39vh 20vh;
+            gap: 1vh;
+           
+
+        }
+
+        .green{
+            grid-column: 1/4;
+            background-color: green;
+            
+        }
+        
+        .blue{
+            display: flex;
+            grid-column: 1/4;
+            background-color: white;
+            justify-content: space-between;
+
+        }
+        .gray{
+           
+            display: flex;
+            grid-column: 1/4;
+            background-color: white;
+            justify-content: space-between
+        }
+
+        .child{
+            background-color: gray;
+            width: 24%;
+             
+        }
+        .child1{
+            background-color: lightblue;
+            width: 32%;
+        }
+        @media screen and (min-width:481px) and (max-width:768px) {
+            .blue{
+            display: flex;
+            flex-direction: column;
+            grid-column: 1/4;
+            background-color: white;
+            justify-content: space-between;
+
+        }
+        .child1{
+            width: 100%;
+            background-color: lightblue;
+            height: 32%;
+           }
+           .gray{
+           
+           display: flex;
+           grid-column: 1/4;
+           background-color: white;
+           justify-content: space-between;
+           align-items:space-between;
+           flex-wrap: wrap;
+       }
+       .child{
+            background-color: gray;
+            width: 48%;
+            height:48%
+             }
+
+            }
+
+
+
+            @media screen and (max-width:481px) {
+                .container{
+        
+            grid-template-rows: 20vh 60vh 20vh;
+           
+        }
+            .blue{
+            display: flex;
+            flex-direction: column;
+            grid-column: 1/4;
+            background-color: white;
+            justify-content: space-between;
+
+        }
+        .child1{
+            width: 100%;
+            background-color: lightblue;
+            height: 32%;
+           }
+           .gray{
+            background-color: gray;
+         
+           grid-column: 1/4;
+        
+       }
+       .child{
+            
+            width: 48%;
+            height:48%;
+            display: none;
+             }
+
+            }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="green"></div>
+        <div class="blue">
+            <div class="child1"></div>
+            <div class="child1"></div>
+            <div class="child1"></div>
+        </div>
+        
+        <div class="gray">
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+           
+
+
+        </div>
+    </div>
+</body>
+</html>
