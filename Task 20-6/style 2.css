@@ -1,6 +1,6 @@
 .container{
     width: 90%;
-    border: 0.0625rem solid darkgrey;
+    border: 1px solid darkgrey;
     text-align: center;
     margin: auto;
 
@@ -9,9 +9,9 @@
 .card{
        width:25%;
        text-align: center;
-       border: 0.0625rem solid black;
+       border: 1px solid black;
        display: inline-block;
-       min-height: 43.75rem;
+       min-height: 700px;
        overflow: hidden;
        
       
@@ -21,7 +21,7 @@
 
 h1{
 
-    padding-top: 0.3125rem;
+    padding-top:5px;
 
 }
 
@@ -30,7 +30,7 @@ img{
 
 }
 .cs{
-    margin: 0 0.625rem;
+    margin: 0 10px;
 }
 
 
